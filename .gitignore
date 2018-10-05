@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/node_modules_lin
+/node_modules_w/
+
 
 # testing
 /coverage
@@ -19,3 +22,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea
+./idea

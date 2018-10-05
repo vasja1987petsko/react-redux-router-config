@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, Link } from 'react';
 
 class Home extends Component {
   render() {
     return (
       <div className="home App">
-           home
-          <button className="btn btn-info">test home</button>
+          <h1> home</h1>
       </div>
     );
   }
