@@ -8,8 +8,8 @@ import thunk from 'redux-thunk';
 
 import reducer from './reducers';
 
-import './style/custom.scss';
-import './style/index.scss';
+import 'css/custom.scss';
+import 'css/index.scss';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 

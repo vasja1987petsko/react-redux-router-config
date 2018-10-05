@@ -1,8 +1,8 @@
 import React from 'react';
-import { Route, Link } from "react-router-dom";
+import { Route, NavLink } from "react-router-dom";
 import Tab1 from  './tab1/tab1.js';
 import Tab2 from  './tab2/tab2.js';
-
+import  './Tab.scss';
 
 const Tab = ({match})=> (
 
@@ -12,10 +12,10 @@ const Tab = ({match})=> (
                 <h3>tab menu</h3>
                 <ul>
                     <li>
-                        <Link to={`${match.url}/tab1`}>tab1</Link>
+                        <NavLink to={`${match.url}/tab1`}>tab1</NavLink>
                     </li>
                     <li>
-                        <Link to={`${match.url}/tab2`}>tab2</Link>
+                        <NavLink to={`${match.url}/tab2`}>tab2</NavLink>
                     </li>
                 </ul>
             </div>

@@ -5,9 +5,9 @@
 /node_modules_lin
 /node_modules_w/
 
+
 .idea
-.idea/
-.idea/workspace.xml
+/.idea
 
 # testing
 /coverage
