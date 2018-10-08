@@ -6,7 +6,7 @@ import RouteWithSubRoutes from '@/router/route-with-sub-routes'
 const Tab2 = ({routes})=> (
 
     <div>
-        <div className="tab-list">
+        <div className="tab-list2">
             <div>
                 <h3>Tab2</h3>
                 {/*<ul>*/}
