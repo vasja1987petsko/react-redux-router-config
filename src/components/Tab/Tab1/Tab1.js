@@ -5,7 +5,6 @@ class Tab1 extends Component {
     return (
       <div className="tab1">
           Tab1
-          <button className="btn btn-info">test home</button>
       </div>
     );
   }
