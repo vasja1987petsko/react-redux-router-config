@@ -4,7 +4,7 @@ import {  NavLink, Switch} from "react-router-dom";
 import RouteWithSubRoutes from '@/router/route-with-sub-routes'
 import  './Tab.scss';
 
-const Tab = ({routes})=> (
+const  Tab = ({routes})=> (
 
     <div>
         <div className="tab-list">
