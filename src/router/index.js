@@ -1,11 +1,15 @@
 import Home from 'components/Home/Home.js';
 import About from 'components/About/About.js';
+
 import Tab from "components/Tab/Tab.js";
-import AuthExample from "components/Auth/Auth.js";
 import Tab1 from  'components/Tab/Tab1/Tab1.js';
 import Tab2 from  'components/Tab/Tab2/Tab2.js';
 import Bus from  'components/Tab/Tab2/Bus.js';
 import Cart from  'components/Tab/Tab2/Cart.js';
+
+import AuthExample from "components/Auth/Auth.js";
+import FormValidation  from 'components/FormValidation/FormValidation.js';
+import ReactValidation  from 'components/ReactValidation/ReactValidation.js';
 import NotFound from 'components/NotFound/NotFound.js';
 
 const routes = [
@@ -17,6 +21,14 @@ const routes = [
     {
         path: "/about",
         component: About
+    },
+    {
+        path: "/form-validation",
+        component: FormValidation
+    },
+    {
+        path: "/react-validation",
+        component: ReactValidation
     },
     {
         path: "/tab",

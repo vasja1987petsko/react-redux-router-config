@@ -22,6 +22,12 @@ class Header extends Component {
               <li>
                   <NavLink to="/auth">/auth</NavLink>
               </li>
+              <li>
+                  <NavLink to="/form-validation">form-validation</NavLink>
+              </li>
+              <li>
+                  <NavLink to="/react-validation">react-validation</NavLink>
+              </li>
           </ul>
       </div>
     );
